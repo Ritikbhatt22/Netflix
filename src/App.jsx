@@ -1,10 +1,11 @@
-import './App.css'
+import Header from "./component/Header"
+import Body from "./component/Body"
 function App() {
 
   return (
-    <h1 class="text-3xl font-bold underline text-cyan-600">
-        Hello world!
-    </h1>
+    <>
+      <Body/>
+    </>
   )
 }
 
